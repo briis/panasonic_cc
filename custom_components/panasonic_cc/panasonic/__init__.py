@@ -5,7 +5,7 @@ import asyncio
 import logging
 from typing import Any
 
-from aio_panasonic_comfort_cloud import ApiClient, PanasonicDeviceInfo
+from ..aio_panasonic_comfort_cloud import ApiClient, PanasonicDeviceInfo
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_PASSWORD, CONF_USERNAME
 from homeassistant.core import HomeAssistant

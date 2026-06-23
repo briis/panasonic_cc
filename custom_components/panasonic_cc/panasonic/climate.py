@@ -16,7 +16,7 @@ from homeassistant.components.climate.const import ClimateEntityFeature
 from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
 
-from aio_panasonic_comfort_cloud import PanasonicDeviceParameters, ChangeRequestBuilder, constants
+from ..aio_panasonic_comfort_cloud import PanasonicDeviceParameters, ChangeRequestBuilder, constants
 
 from ..const import (
     CONF_USE_PANASONIC_PRESET_NAMES,

@@ -10,7 +10,7 @@ from homeassistant.helpers.update_coordinator import DataUpdateCoordinator, Upda
 from homeassistant.helpers.entity import DeviceInfo
 from homeassistant.helpers.storage import Store
 
-from aio_panasonic_comfort_cloud import (
+from ..aio_panasonic_comfort_cloud import (
     ApiClient,
     PanasonicDevice,
     PanasonicDeviceInfo,

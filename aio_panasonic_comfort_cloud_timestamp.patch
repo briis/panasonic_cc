@@ -1,0 +1,11 @@
+--- a/aio_panasonic_comfort_cloud/panasonicdevice.py
++++ b/aio_panasonic_comfort_cloud/panasonicdevice.py
+@@ -427,7 +427,8 @@ class PanasonicDevice:
+         else:
+             has_changed = True if self._parameters.load(json_parameters) else has_changed
+         if has_changed:
+             self._last_update = datetime.now(timezone.utc)
+-        self._timestamp = datetime.fromtimestamp(json['timestamp'] / 1000, timezone.utc)
++        ts = json.get('timestamp')
++        self._timestamp = datetime.fromtimestamp(ts / 1000, timezone.utc) if ts is not None else None
+         return has_changed

@@ -9,7 +9,7 @@ from homeassistant.core import HomeAssistant
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.components.select import SelectEntity, SelectEntityDescription
 
-from aio_panasonic_comfort_cloud import PanasonicDevice, ChangeRequestBuilder, constants
+from ..aio_panasonic_comfort_cloud import PanasonicDevice, ChangeRequestBuilder, constants
 
 from ..const import DOMAIN
 from .base import PanasonicDataEntity

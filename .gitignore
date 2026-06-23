@@ -5,3 +5,10 @@
 __pycache__/
 *.pyc
 panasonic_cc.code-workspace
+
+# Home Assistant configuration
+config/*
+!config/configuration.yaml
+
+custom_components/.DS_Store
+.DS_Store

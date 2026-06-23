@@ -3,7 +3,7 @@ from __future__ import annotations
 
 import logging
 
-from aio_panasonic_comfort_cloud import ApiClient
+from .aio_panasonic_comfort_cloud import ApiClient
 from homeassistant.components.persistent_notification import async_dismiss
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.const import CONF_PASSWORD, CONF_USERNAME

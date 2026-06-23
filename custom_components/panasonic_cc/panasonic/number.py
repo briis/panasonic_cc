@@ -13,7 +13,7 @@ from homeassistant.components.number import (
     NumberMode,
 )
 
-from aio_panasonic_comfort_cloud import PanasonicDevice, PanasonicDeviceZone, ChangeRequestBuilder
+from ..aio_panasonic_comfort_cloud import PanasonicDevice, PanasonicDeviceZone, ChangeRequestBuilder
 
 from ..const import DOMAIN
 from .base import PanasonicDataEntity

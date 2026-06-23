@@ -12,7 +12,7 @@ from homeassistant.components.switch import (
     SwitchEntity,
     SwitchEntityDescription,
 )
-from aio_panasonic_comfort_cloud import (
+from ..aio_panasonic_comfort_cloud import (
     PanasonicDevice,
     PanasonicDeviceZone,
     ChangeRequestBuilder,

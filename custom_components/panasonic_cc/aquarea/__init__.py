@@ -4,7 +4,7 @@ from __future__ import annotations
 import asyncio
 import logging
 
-from aio_panasonic_comfort_cloud import ApiClient
+from ..aio_panasonic_comfort_cloud import ApiClient
 from aioaquarea import Client as AquareaApiClient
 from aioaquarea.data import DeviceInfo as AquareaDeviceInfo
 from homeassistant.config_entries import ConfigEntry
